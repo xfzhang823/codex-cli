@@ -1,0 +1,17 @@
+[project]
+name = "codex-cli"  # For PyPI and CLI command
+version = "0.1.0"
+description = "A CLI tool for code generation, analysis, refactoring, and more."
+readme = "README.md"
+authors = [
+    { name = "Xiao-Fei Zhang", email = "xzhang823@yahoo.com" }
+]
+requires-python = ">=3.12"
+dependencies = ["openai", "pyyaml"]
+
+[project.scripts]
+codex-cli = "codex_cli.cli.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

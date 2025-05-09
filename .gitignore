@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dll
+
+# C extensions
+*.c
+*.o
+
+# Virtual environment
+.venv/
+.env/
+.Python
+
+# Hatchling build artifacts
+*.egg-info/
+build/
+dist/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+coverage.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local configuration files
+config.yaml
+
+# Logs
+logs/
+*.log
+
+# Data and cache files
+*.db
+*.sqlite3
+*.pkl
+*.csv
+*.parquet
+
+# Hatchling
+.hatch/
